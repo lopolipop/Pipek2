@@ -1,0 +1,16 @@
+{
+  "name": "myApp",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jade": "^1.11.0",
+    "mongoose": "^4.13.6",
+    "morgan": "^1.9.0",
+    "node-sass-middleware": "^0.11.0"
+  }
+}

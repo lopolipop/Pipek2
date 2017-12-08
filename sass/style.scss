@@ -1,0 +1,27 @@
+// [Color]
+$headerBackgroundColor: #232323;
+$mainBackgroundColor: #111111;
+
+html {
+    fond-size: 14px;
+}
+body {
+    font-family: Arial, sans-serif !important;
+    font-size: 14px;
+    background-color:$mainBackgroundColor;
+}
+header .header-box {
+    display: inline-block;
+    width: 100%;
+    background-color: $headerBackgroundColor;
+    font-size: 0.8em;
+    height: 55px;
+}
+header .header-box .menu {
+  padding: 15px 0px 0px 30px;
+}
+header .header-box .logo {
+  padding: 12px 0px 0px 10px;
+  margin-left: -50px;
+  width: 100px;
+}
