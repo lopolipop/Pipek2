@@ -2,6 +2,20 @@
 $headerBackgroundColor: #232323;
 $mainBackgroundColor: #111111;
 
+$searchboxInputFontColor: #aaaaaa;
+$searchboxInputBackgroundColor: #111111;
+$searchboxButtonBackgroundColor: #343434;
+$searchboxButtonPathColor: #6d6d6d;
+
+$searchformBackgroundColor: #343434;
+$searchformTitleColor: #ffffff;
+$searchformInputBackgroundColor: #aaaaaa;
+$searchfromInputFontColor: #000000;
+$searchformInputBackgroundColor: #ffffff;
+$searchformButtonBackgroundColor: #111111;
+
+$mapBorderColor: #1c1c1c;
+
 html {
     fond-size: 14px;
 }
@@ -18,10 +32,105 @@ header .header-box {
     height: 55px;
 }
 header .header-box .menu {
-  padding: 15px 0px 0px 30px;
+  padding: 15px 0px -0px 30px;
 }
 header .header-box .logo {
   padding: 12px 0px 0px 10px;
   margin-left: -50px;
   width: 100px;
+}
+header .searchbox {
+  text-align: center;
+}
+header .searchbox input {
+  padding: 0px 0px 0px 10px;
+  margin: 14px 0px 0px 7px;
+  border: 0px;
+  height: 30px;
+  width: 450px;
+  font-size: 15px;
+  font-weight: 500;
+  color: $searchboxInputFontColor;
+  background-color: $searchboxInputBackgroundColor;
+}
+header .searchbox button {
+  padding: 0px;
+  margin: 14px 0px 0px 0px;
+  border: 0px;
+  height: 30px;
+  width: 60px;
+  background-color: $searchboxButtonBackgroundColor;
+  position: absolute;
+}
+header .searchbox svg {
+  width: 100%;
+  height: 70%;
+  display: block;
+  pointer-events: none;
+}
+header .searchbox path {
+  fill: $searchboxButtonPathColor;
+}
+.searchform {
+  padding: 10px 10px 30px 10px;
+  margin-top: 100px;
+  width: 1100px;
+  background-color: $searchformBackgroundColor;
+}
+.searchform .title {
+  color: $searchformTitleColor;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+.searchform input {
+  padding: 0px 0px 0px 10px;
+  margin: 14px 0px 0px 80px;
+  border: 0px;
+  height: 40px;
+  width: 800px;
+  font-size: 20px;
+  font-weight: 500;
+  color: $searchfromInputFontColor;
+  background-color: $searchformInputBackgroundColor;
+}
+.searchform button {
+  padding: 0px;
+  margin: 14px 0px 0px 0px;
+  border: 0px;
+  height: 40px;
+  width: 100px;
+  background-color: $searchformButtonBackgroundColor;
+  position: absolute;
+}
+.searchform svg {
+  width: 100%;
+  height: 70%;
+  display: block;
+  pointer-events: none;
+}
+.searchform path {
+  fill: $searchboxButtonPathColor;
+}
+.searchform .selector {
+  padding: 10px 0px 0px 65px;
+  width: 980px;
+  border: 1px solid;
+}
+.searchform .selector select {
+  border-radius: 0px;
+  width: 180px;
+}
+.searchform .selector .left {
+  margin-left: 0px;
+}
+.searchform .selector .middle {
+  margin-left: -40px;
+}
+.map {
+  width: 50%;
+  height: 500px;
+  position: absolute;
+  padding: 5px 5px 5px 5px;
+  background-color: $mapBorderColor;
 }
